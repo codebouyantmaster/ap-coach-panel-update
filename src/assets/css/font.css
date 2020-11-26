@@ -1,0 +1,22 @@
+/* Inter Font Family */
+@font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter/Inter-Regular-slnt=0.ttf') format('truetype'); /* IE9 */
+    src: url('../fonts/Inter/Inter-Medium-slnt=0.ttf') format('truetype'), /* IE6-IE8 */
+    url('../fonts/Inter/Inter-SemiBold-slnt=0.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Inter/Inter-Bold-slnt=0.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Inter/Inter-ExtraBold-slnt=0.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Inter/Inter-Black-slnt=0.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Inter/Inter-Light-slnt=0.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  }
+  /* Futura Md BT Font family */
+  @font-face {
+    font-family: "Futura Md BT";
+    src: url('../fonts/futura_md_bt/FutuMd.ttf') format('truetype'); /* IE9 */
+  }
+
+  body {
+    font-family: 'Inter' !important; 
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
